@@ -1,0 +1,39 @@
+{
+  "RAW_DATA_DIR": "./data/",
+  "TRAIN_DATA_CLEAN_PATH": "./data/processed/train.csv",
+  "MODEL_DIR": "./models/",
+  "LOGS_DIR": "./logs/",
+  "SUBMISSION_DIR": "./submissions/",
+  "CAT_COLS": ["ticker"],
+  "TARGET_COL": "returnRawOpenNext1",
+  "BACKTEST_COL": "returnRawOpenNext1",
+  "DATETIME_COL_NAME": "Dates",
+  "NUM_COLS": [
+            "Volume",
+            "Close1",
+            "Open",
+            "returnRawOpen1",
+            "returnRawClose1",
+            "returnRawOpen10",
+            "returnRawClose10",
+            "returnRawOpenRes1",
+            "returnRawCloseRes1",
+            "returnRawOpenRes10",
+            "returnRawCloseRes10"
+        ],
+  "RETURN_COLS": [
+            "returnRawOpen1",
+            "returnRawClose1",
+            "returnRawOpen10",
+            "returnRawClose10",
+            "returnRawOpenRes1",
+            "returnRawCloseRes1",
+            "returnRawOpenRes10",
+            "returnRawCloseRes10"
+        ],
+  "DATA_FROM_FILE": 1,
+  "DATA_FILENAME": "sxxp_data.csv",
+  "TRADE_COST_PERCENT": 0.02,
+  "INDEX": "SXXP Index",
+  "NUMBER_OF_INSTRUMENTS": 4000
+}

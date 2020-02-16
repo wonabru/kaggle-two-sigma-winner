@@ -1,0 +1,7 @@
+.
+./documentation
+./models
+./data
+./data/processed
+./submissions
+./logs
